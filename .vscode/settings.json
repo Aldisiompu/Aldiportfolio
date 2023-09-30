@@ -1,0 +1,5 @@
+{
+  "C_Cpp.suggestSnippets": true,
+  "C_Cpp.inlayHints.referenceOperator.showSpace": true,
+  "html-css-class-completion.enableEmmetSupport": true
+}

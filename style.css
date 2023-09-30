@@ -1,0 +1,350 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+:root {
+  --base_color: #8092bf;
+}
+
+/* style navbar start */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 20px;
+  border-bottom: thin solid rgba(0, 0, 0, 0.2);
+}
+
+.navbar-logo a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.navbar-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-menu li {
+  margin-right: 20px;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.navbar-menu a:hover {
+  color: var(--base_color);
+  transition: all ease-in-out 0.3s;
+}
+
+/* style navbar end */
+
+/* style home start */
+.home-style {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+}
+.home-text {
+  padding-left: 7.5rem;
+  display: block;
+  flex-direction: column;
+  line-height: 3.5rem;
+  margin-bottom: 80px;
+}
+.home-text h2 {
+  font-size: 30px;
+  color: #6a6e7a;
+}
+.home-text span {
+  color: var(--base_color);
+}
+
+.home .medsos a {
+  text-decoration: none;
+  margin: 0px 2px;
+}
+.home .medsos a img {
+  height: 30px;
+  width: 30px;
+  margin: 0px 2px;
+  background-color: var(--base_color);
+  border-radius: 100%;
+  padding: 8px;
+}
+.home .medsos a img:hover {
+  background-color: #95a2c5;
+  transition: ease-in-out 0.3s all;
+}
+.home-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 68%;
+  width: 30%;
+  overflow: hidden;
+  margin-bottom: 120px;
+}
+
+.home-profile a {
+  text-decoration: none;
+  margin-right: 30px;
+  margin-top: 180px;
+}
+.home-profile img {
+  height: 900px;
+  width: 900px;
+  object-fit: contain;
+}
+/* style home end */
+
+/* style about start */
+.about {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0px;
+  height: 90vh;
+  margin-left: 150px;
+}
+.about .about-image img {
+  width: 430px;
+  height: 430px;
+  border-radius: 20px;
+}
+
+.about .text-about p {
+  margin: 50px 200px 0px 80px;
+  align-items: center;
+}
+.about .text-about .about-more {
+  margin: 50px 0px 0px 80px;
+  background-color: var(--base_color);
+  padding: 15px;
+  color: white;
+  border-radius: 20px;
+}
+.about .text-about .about-more:hover {
+  background-color: #95a2c5;
+  transition: ease-in-out 0.3s all;
+}
+
+.education {
+  line-height: 30px;
+  margin-top: 20px;
+  margin-left: 80px;
+  color: #6a6e7a;
+}
+
+/* style about end */
+
+/* style experience start */
+.services-home {
+  margin: 30px 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.card {
+  box-shadow: 0 1px 3px 4px rgba(199, 185, 185, 0.4);
+  border-radius: 8px;
+  max-width: 80%;
+  text-align: center;
+  padding: 10px;
+  width: 30%;
+  height: 350px;
+}
+.card:hover {
+  box-shadow: 0px 0px 0px 1px var(--base_color);
+  transition: all ease-in-out 0.5s;
+}
+
+.card .card-image,
+h3,
+p {
+  margin: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #6a6e7a;
+}
+
+/* style experience end */
+
+/* style projects start */
+
+.projects {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 10rem;
+  gap: 60px;
+}
+.projects-image {
+  background-color: var(--base_color);
+  border-radius: 10px;
+}
+.projects-styles img {
+  padding: 10px;
+  width: 450px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.projects-text h2 {
+  color: var(--base_color);
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 10px;
+}
+
+.projects-text button {
+  background-color: var(--base_color);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+  color: white;
+}
+
+.projects-text button:hover {
+  background-color: #95a2c5;
+  transition: ease-in-out 0.3s all;
+}
+
+.projects-view {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects-view h6 {
+  border-radius: 20px;
+  border: thin solid var(--base_color);
+  padding: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #6a6e7a;
+  cursor: pointer;
+}
+.projects-view h6:hover {
+  background-color: #95a2c5;
+  color: white;
+  transition: ease-in-out 0.5s all;
+}
+
+/* style projects end */
+
+/* style contact start */
+#contact {
+  height: 90vh;
+}
+.contact {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 10rem;
+  gap: 60px;
+}
+.contact-image {
+  background-color: var(--base_color);
+  border-radius: 20px;
+  padding: 20px 10px;
+}
+.contact-text h2 {
+  color: var(--base_color);
+  padding-left: 20px;
+}
+.contact-talk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-image-talk {
+  display: flex;
+  gap: 10px;
+  border-radius: 20px;
+  border: thin solid var(--base_color);
+  text-align: center;
+  padding: 12px 10px;
+  cursor: pointer;
+}
+.contact-image-talk img {
+  width: 16px;
+  height: 16px;
+}
+.contact-talk h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6a6e7a;
+}
+
+.contact-talk a:hover {
+  transition: ease-in-out 0.5s all;
+  background-color: var(--base_color);
+  border-radius: 20px;
+}
+/* style contact end */
+
+/* style footer start */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #303748;
+  padding: 10px 10rem;
+}
+.footer-text {
+  font-size: 8px;
+  color: var(--base_color);
+}
+
+.footer-menu {
+  display: flex;
+}
+.footer-menu li a {
+  color: white;
+  padding: 10px;
+}
+
+.footer-menu li a:hover {
+  color: var(--base_color);
+  transition: all ease-in-out 0.3s;
+}
+.footer-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-image img {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  margin: 0px 10px;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.footer-image img:hover {
+  background-color: var(--base_color);
+  transition: ease-in-out 0.5s all;
+}
+/* style footer end */
